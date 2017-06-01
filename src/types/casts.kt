@@ -1,3 +1,5 @@
+package types
+
 fun main(args: Array<String>){
     val a: Byte = 5
     val b: Int

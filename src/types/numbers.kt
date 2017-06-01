@@ -1,3 +1,5 @@
+package types
+
 fun main(args: Array<String>) {
     val lightSpeed: Long = 186000
     val days: Long = 1000
