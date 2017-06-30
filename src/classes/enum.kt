@@ -29,7 +29,6 @@ fun main(args: Array<String>){
         Apple.RedDel -> "Ред Делишес"
         Apple.Winesap -> "Сорт Винный"
         Apple.Cortland -> "Кортлэнд"
-        else -> "Это вообще не яблоко"
     }
 
     println("Мое любимое яблоко $name имеет более сладкий вкус и ${myApple.color} цвет")
