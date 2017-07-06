@@ -1,7 +1,7 @@
 package interfaces
 
 class A {
-    public interface NestedIF {
+    interface NestedIF {
         fun bar()
     }
 }

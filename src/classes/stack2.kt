@@ -5,7 +5,7 @@ interface IStack<T> {
     fun pop(): T?
 }
 
-class Stack2<T>(val size: Int = 10): IStack<T> {
+class CoolStack<T>(val size: Int = 10): IStack<T> {
 
     @Suppress("UNCHECKED_CAST")
     private val stck = arrayOfNulls<Any>(size) as Array<T>
@@ -30,8 +30,8 @@ class Stack2<T>(val size: Int = 10): IStack<T> {
 
 fun main(args: Array<String>){
     val size = 5
-    val stackInt = Stack2<Int>(size)
-    val stackChar = Stack2<Char>(size)
+    val stackInt = CoolStack<Int>(size)
+    val stackChar = CoolStack<Char>(size)
 
     println("Целочисленный стек: ")
     for (i in 0..size - 1)
