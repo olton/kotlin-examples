@@ -10,6 +10,4 @@ class ClassTest1 {
 
 fun bar(){
     var v: Int
-
-
 }
